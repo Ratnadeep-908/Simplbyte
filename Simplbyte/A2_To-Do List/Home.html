@@ -1,0 +1,33 @@
+<html>
+<head>
+    <link rel="stylesheet" href="Home.css">
+    <title>TO-DO LIST</title>
+</head>
+<body>
+    <style>
+        body 
+        {
+          background-image: url('background.jpg');
+          font-family:'Times New Roman', Times, serif;
+          height: 90%;
+          background-position: fit;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+    </style>
+    <script src="Home.js"></script>
+    <header>
+        <p style="font-size:40px;color:rgb(255, 255, 255);">TO-DO List</p>
+        <form id="task-form">
+            <input type="text" name="task-input" id="task-input" placeholder="What task is in your mind">
+            <input type="submit" id="task-submit" value="Add task">
+        </form>
+    </header>
+    <main>
+        <section class="task-list">
+            <p style="font-size:30px;color:rgb(255, 255, 255);">TASKS</p>
+            <div id="tasks"></div>
+        </section>
+    </main>
+</body>
+</html>
